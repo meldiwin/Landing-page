@@ -246,6 +246,17 @@ nav img{height:17px;display:block}
 }
 .btn:hover{background:var(--sun);transform:scale(1.05)}
 .btn-light{background:#fff;color:var(--ink);margin-top:34px}
+.mich-teaser{padding:18vh 0}
+.mich-kicker{display:block;font-size:12px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:#5FE0C6;margin-bottom:30px}
+.mich-teaser .mich-h{max-width:16ch;margin:0 auto}
+.mich-teaser .mich-sub{margin:30px auto 0}
+.btn-robots{
+  background:var(--sun);color:#0A0908;font-weight:700;
+  font-size:15px;padding:19px 48px;margin-top:48px;
+  animation:btnpulse 2.8s ease-in-out 1.5s infinite;
+}
+.btn-robots:hover{background:#5FE0C6;transform:scale(1.05)}
+@media(prefers-reduced-motion:reduce){.btn-robots{animation:none}}
 .email-row{margin-top:0;display:flex;gap:14px;justify-content:center;align-items:center;flex-wrap:wrap}
 .email-input{
   font-family:inherit;font-size:14px;font-weight:500;color:var(--ink);
@@ -428,12 +439,12 @@ footer a:hover{color:var(--ink)}
 </section>
 
 <!-- ROBOTS TEASER -->
-<section class="mich" id="michelin">
+<section class="mich mich-teaser" id="michelin">
   <div class="sec-inner">
     <span class="mich-kicker rv">For robots</span>
     <h2 class="mich-h rv">The same geometry now carries <span>humanoid robots</span></h2>
-    <p class="mich-sub rv">Footpads and hands for the humanoid era. Validated in simulation on a Unitree G1. Samples shipping to OEMs.</p>
-    <a class="btn btn-light rv" href="https://humanoids.sunflowerrobotics.com/">Sunflower for robots &rarr;</a>
+    <p class="mich-sub rv">The humanoid era needs soles. Samples are shipping to OEMs now.</p>
+    <a class="btn btn-robots rv" href="https://humanoids.sunflowerrobotics.com/">Visit Sunflower for robots &rarr;</a>
   </div>
 </section>
 
